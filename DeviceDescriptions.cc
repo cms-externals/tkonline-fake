@@ -408,6 +408,8 @@ class apvDescription {
   tscType8 getApvMode();
   tscType8 getLatency();
   tscType8 getVpsp();
+  tscType8 getIsha();
+  tscType8 getVfs();
   void setIsha(tscType8 isha);
   void setLatency(tscType8 latency);
   void setVfs(tscType8 vfs);
@@ -418,6 +420,8 @@ class apvDescription {
 tscType8 apvDescription::getApvMode() { THROW_RUNTIME; };
 tscType8 apvDescription::getLatency() { THROW_RUNTIME; };
 tscType8 apvDescription::getVpsp() { THROW_RUNTIME; };
+tscType8 apvDescription::getIsha() { THROW_RUNTIME; };
+tscType8 apvDescription::getVfs() { THROW_RUNTIME; };
 void apvDescription::setIsha(tscType8 isha) { THROW_RUNTIME; };
 void apvDescription::setLatency(tscType8 latency) { THROW_RUNTIME; };
 void apvDescription::setVfs(tscType8 vfs) { THROW_RUNTIME; };
